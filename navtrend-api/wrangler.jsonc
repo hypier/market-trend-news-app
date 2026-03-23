@@ -1,0 +1,47 @@
+{
+  // ============================================
+  // NavTrend API - Wrangler 配置 (JSON)
+  // ============================================
+  // 项目: NavTrend API (Cloudflare Workers)
+  // 文档: https://developers.cloudflare.com/workers/
+  // ============================================
+
+  // 基础配置
+  "name": "marketnews-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-12-16",
+  "compatibility_flags": ["nodejs_compat_v2"],
+
+  // 分析配置
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+
+  // ============================================
+  // 环境变量配置
+  // ============================================
+  "vars": {
+    "NODE_ENV": "development"
+  },
+
+  // ============================================
+  // 数据库和存储配置
+  // ============================================
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navtrend-db",
+      "database_id": "651ea2d3-1923-47c7-8d9b-6294fad70413"
+    }
+  ],
+
+  "kv_namespaces": [
+    {
+      "binding": "CACHE",
+      "id": "20bd2699d6b8406fa3f7ae3a1001654f",
+      "preview_id": "973ea1062c32455bb01308b61e28fc3a"
+    }
+  ]
+}
+

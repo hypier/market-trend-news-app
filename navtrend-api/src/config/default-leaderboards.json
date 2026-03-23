@@ -1,0 +1,834 @@
+{
+  "version": "1.2.0",
+  "last_updated": "2025-10-29",
+  "description": "NavTrend 默认排行榜配置文件 - 已更新为最新配置结构",
+  "categories": [
+    {
+      "id": "recommended",
+      "name_translations": {
+        "zh": "推荐",
+        "en": "Recommended",
+        "ja": "おすすめ",
+        "ko": "추천",
+        "de": "Empfohlen",
+        "ms": "Disyorkan",
+        "id": "Direkomendasikan"
+      },
+      "leaderboards": [
+        "stocks_market_movers.large_cap:america",
+        "crypto_coins.large_cap",
+        "indices_quotes.major",
+        "stocks_market_movers.large_cap:china",
+        "stocks_market_movers.gainers:japan"
+      ]
+    },
+    {
+      "id": "stocks",
+      "name_translations": {
+        "zh": "股票",
+        "en": "Stocks",
+        "ja": "株式",
+        "ko": "주식",
+        "de": "Aktien",
+        "ms": "Saham",
+        "id": "Saham"
+      },
+      "leaderboards": [
+        "stocks_market_movers.large_cap:america",
+        "stocks_market_movers.large_cap:china",
+        "stocks_market_movers.large_cap:japan",
+        "stocks_market_movers.large_cap:hongkong",
+        "stocks_market_movers.large_cap:korea",
+        "stocks_market_movers.large_cap:germany",
+        "stocks_market_movers.large_cap:taiwan",
+        "stocks_market_movers.large_cap:malaysia",
+        "stocks_market_movers.large_cap:indonesia"
+      ]
+    },
+    {
+      "id": "crypto",
+      "name_translations": {
+        "zh": "加密货币",
+        "en": "Cryptocurrency",
+        "ja": "暗号通貨",
+        "ko": "암호화폐",
+        "de": "Kryptowährung",
+        "ms": "Mata Wang Kripto",
+        "id": "Mata Uang Kripto"
+      },
+      "leaderboards": [
+        "crypto_coins.large_cap",
+        "crypto_coins.small_cap",
+        "crypto_coins.gainers",
+        "crypto_coins.losers"
+      ]
+    },
+    {
+      "id": "indices",
+      "name_translations": {
+        "zh": "指数",
+        "en": "Indices",
+        "ja": "指数",
+        "ko": "지수",
+        "de": "Indizes",
+        "ms": "Indeks",
+        "id": "Indeks"
+      },
+      "leaderboards": [
+        "indices_quotes.major",
+        "indices_quotes.us",
+        "indices_quotes.americas",
+        "indices_quotes.asia"
+      ]
+    },
+    {
+      "id": "currencies",
+      "name_translations": {
+        "zh": "外汇",
+        "en": "currencies",
+        "ja": "外国為替",
+        "ko": "외환",
+        "de": "currencies",
+        "ms": "currencies",
+        "id": "Valas"
+      },
+      "leaderboards": [
+        "currencies_rates.major",
+        "currencies_rates.minor",
+        "currencies_rates.americas",
+        "currencies_rates.europe"
+      ]
+    },
+    {
+      "id": "futures",
+      "name_translations": {
+        "zh": "期货",
+        "en": "Futures",
+        "ja": "先物",
+        "ko": "선물",
+        "de": "Futures",
+        "ms": "Niaga Hadapan",
+        "id": "Futures"
+      },
+      "leaderboards": [
+        "futures.quotes_energy",
+        "futures.quotes_metals",
+        "futures.quotes_agricultural",
+        "futures.quotes_world_indices"
+      ]
+    },
+    {
+      "id": "etf",
+      "name_translations": {
+        "zh": "ETF",
+        "en": "ETF",
+        "ja": "ETF",
+        "ko": "ETF",
+        "de": "ETF",
+        "ms": "ETF",
+        "id": "ETF"
+      },
+      "leaderboards": [
+        "etfs_funds.largest",
+        "etfs_funds.highest_returns",
+        "etfs_funds.highest_aum_growth",
+        "etfs_funds.biggest_losers"
+      ]
+    }
+  ],
+  "leaderboards": {
+    "stocks_market_movers.gainers:america": {
+      "market_type": "stock",
+      "market_code": "america",
+      "name_translations": {
+        "zh": "美股涨幅榜",
+        "en": "US Gainers",
+        "ja": "米国株上昇ランキング",
+        "ko": "미국 주식 상승",
+        "de": "US-Gewinner",
+        "ms": "Penaik AS",
+        "id": "Penaik Jepang"
+      },
+      "description_translations": {
+        "zh": "美国股市今日涨幅最大的股票",
+        "en": "Top gaining stocks in US market today",
+        "ja": "本日の米国株式市場で最も上昇した銘柄",
+        "ko": "오늘 미국 시장에서 가장 많이 상승한 주식",
+        "de": "Die am stärksten steigenden Aktien im US-Markt heute",
+        "ms": "Saham paling meningkat di pasaran AS hari ini",
+        "id": "Saham dengan kenaikan tertinggi di pasar AS hari ini"
+      },
+      "id": "stocks_market_movers.gainers"
+    },
+    "stocks_market_movers.large_cap:america": {
+      "market_type": "stock",
+      "market_code": "america",
+      "name_translations": {
+        "zh": "美国大盘股",
+        "en": "US Large Cap",
+        "ja": "米国大型株",
+        "ko": "미국 대형주",
+        "de": "US Large Cap",
+        "ms": "AS Bermodal Besar",
+        "id": "AS Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "美国市值最大的股票",
+        "en": "Largest US stocks by market cap",
+        "ja": "米国の時価総額最大の銘柄",
+        "ko": "시가총액 기준 미국 최대 주식",
+        "de": "Größte US-Aktien nach Marktkapitalisierung",
+        "ms": "Saham AS terbesar mengikut permodalan pasaran",
+        "id": "Saham AS terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:china": {
+      "market_type": "stock",
+      "market_code": "china",
+      "name_translations": {
+        "zh": "中国大盘股",
+        "en": "China Large Cap",
+        "ja": "中国大型株",
+        "ko": "중국 대형주",
+        "de": "China Large Cap",
+        "ms": "China Bermodal Besar",
+        "id": "China Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "中国市值最大的股票",
+        "en": "Largest China stocks by market cap",
+        "ja": "中国の時価総額最大の銘柄",
+        "ko": "시가총액 기준 중국 최대 주식",
+        "de": "Größte chinesische Aktien nach Marktkapitalisierung",
+        "ms": "Saham China terbesar mengikut permodalan pasaran",
+        "id": "Saham China terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.gainers:japan": {
+      "market_type": "stock",
+      "market_code": "japan",
+      "name_translations": {
+        "zh": "日股涨幅榜",
+        "en": "Japan Gainers",
+        "ja": "日本株上昇ランキング",
+        "ko": "일본 주식 상승",
+        "de": "Japan-Gewinner",
+        "ms": "Penaik Jepun",
+        "id": "Penaik Jepang"
+      },
+      "description_translations": {
+        "zh": "日本股市今日涨幅最大的股票",
+        "en": "Top gaining stocks in Japan market today",
+        "ja": "本日の日本株式市場で最も上昇した銘柄",
+        "ko": "오늘 일본 시장에서 가장 많이 상승한 주식",
+        "de": "Die am stärksten steigenden Aktien im japanischen Markt heute",
+        "ms": "Saham paling meningkat di pasaran Jepun hari ini",
+        "id": "Saham dengan kenaikan tertinggi di pasar Jepang hari ini"
+      },
+      "id": "stocks_market_movers.gainers"
+    },
+    "stocks_market_movers.large_cap:japan": {
+      "market_type": "stock",
+      "market_code": "japan",
+      "name_translations": {
+        "zh": "日本大盘股",
+        "en": "Japan Large Cap",
+        "ja": "日本大型株",
+        "ko": "일본 대형주",
+        "de": "Japan Large Cap",
+        "ms": "Jepun Bermodal Besar",
+        "id": "Jepang Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "日本市值最大的股票",
+        "en": "Largest Japan stocks by market cap",
+        "ja": "日本の時価総額最大の銘柄",
+        "ko": "시가총액 기준 일본 최대 주식",
+        "de": "Größte japanische Aktien nach Marktkapitalisierung",
+        "ms": "Saham Jepun terbesar mengikut permodalan pasaran",
+        "id": "Saham Jepang terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:hongkong": {
+      "market_type": "stock",
+      "market_code": "hongkong",
+      "name_translations": {
+        "zh": "香港大盘股",
+        "en": "Hong Kong Large Cap",
+        "ja": "香港大型株",
+        "ko": "홍콩 대형주",
+        "de": "Hongkong Large Cap",
+        "ms": "Hong Kong Bermodal Besar",
+        "id": "Hong Kong Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "香港市值最大的股票",
+        "en": "Largest Hong Kong stocks by market cap",
+        "ja": "香港の時価総額最大の銘柄",
+        "ko": "시가총액 기준 홍콩 최대 주식",
+        "de": "Größte Hongkong-Aktien nach Marktkapitalisierung",
+        "ms": "Saham Hong Kong terbesar mengikut permodalan pasaran",
+        "id": "Saham Hong Kong terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:korea": {
+      "market_type": "stock",
+      "market_code": "korea",
+      "name_translations": {
+        "zh": "韩国大盘股",
+        "en": "Korea Large Cap",
+        "ja": "韓国大型株",
+        "ko": "한국 대형주",
+        "de": "Korea Large Cap",
+        "ms": "Korea Bermodal Besar",
+        "id": "Korea Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "韩国市值最大的股票",
+        "en": "Largest Korea stocks by market cap",
+        "ja": "韓国の時価総額最大の銘柄",
+        "ko": "시가총액 기준 한국 최대 주식",
+        "de": "Größte koreanische Aktien nach Marktkapitalisierung",
+        "ms": "Saham Korea terbesar mengikut permodalan pasaran",
+        "id": "Saham Korea terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:germany": {
+      "market_type": "stock",
+      "market_code": "germany",
+      "name_translations": {
+        "zh": "德国大盘股",
+        "en": "Germany Large Cap",
+        "ja": "ドイツ大型株",
+        "ko": "독일 대형주",
+        "de": "Deutschland Large Cap",
+        "ms": "Jerman Bermodal Besar",
+        "id": "Jerman Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "德国市值最大的股票",
+        "en": "Largest Germany stocks by market cap",
+        "ja": "ドイツの時価総額最大の銘柄",
+        "ko": "시가총액 기준 독일 최대 주식",
+        "de": "Größte deutsche Aktien nach Marktkapitalisierung",
+        "ms": "Saham Jerman terbesar mengikut permodalan pasaran",
+        "id": "Saham Jerman terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:taiwan": {
+      "market_type": "stock",
+      "market_code": "taiwan",
+      "name_translations": {
+        "zh": "台湾大盘股",
+        "en": "Taiwan Large Cap",
+        "ja": "台湾大型株",
+        "ko": "대만 대형주",
+        "de": "Taiwan Large Cap",
+        "ms": "Taiwan Bermodal Besar",
+        "id": "Taiwan Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "台湾市值最大的股票",
+        "en": "Largest Taiwan stocks by market cap",
+        "ja": "台湾の時価総額最大の銘柄",
+        "ko": "시가총액 기준 대만 최대 주식",
+        "de": "Größte taiwanesische Aktien nach Marktkapitalisierung",
+        "ms": "Saham Taiwan terbesar mengikut permodalan pasaran",
+        "id": "Saham Taiwan terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:malaysia": {
+      "market_type": "stock",
+      "market_code": "malaysia",
+      "name_translations": {
+        "zh": "马来西亚大盘股",
+        "en": "Malaysia Large Cap",
+        "ja": "マレーシア大型株",
+        "ko": "말레이시아 대형주",
+        "de": "Malaysia Large Cap",
+        "ms": "Malaysia Bermodal Besar",
+        "id": "Malaysia Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "马来西亚市值最大的股票",
+        "en": "Largest Malaysia stocks by market cap",
+        "ja": "マレーシアの時価総額最大の銘柄",
+        "ko": "시가총액 기준 말레이시아 최대 주식",
+        "de": "Größte malaysische Aktien nach Marktkapitalisierung",
+        "ms": "Saham Malaysia terbesar mengikut permodalan pasaran",
+        "id": "Saham Malaysia terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "stocks_market_movers.large_cap:indonesia": {
+      "market_type": "stock",
+      "market_code": "indonesia",
+      "name_translations": {
+        "zh": "印尼大盘股",
+        "en": "Indonesia Large Cap",
+        "ja": "インドネシア大型株",
+        "ko": "인도네시아 대형주",
+        "de": "Indonesien Large Cap",
+        "ms": "Indonesia Bermodal Besar",
+        "id": "Indonesia Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "印尼市值最大的股票",
+        "en": "Largest Indonesia stocks by market cap",
+        "ja": "インドネシアの時価総額最大の銘柄",
+        "ko": "시가총액 기준 인도네시아 최대 주식",
+        "de": "Größte indonesische Aktien nach Marktkapitalisierung",
+        "ms": "Saham Indonesia terbesar mengikut permodalan pasaran",
+        "id": "Saham Indonesia terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "stocks_market_movers.large_cap"
+    },
+    "crypto_coins.large_cap": {
+      "market_type": "crypto",
+      "name_translations": {
+        "zh": "大盘加密货币",
+        "en": "Large Cap Crypto",
+        "ja": "大型暗号通貨",
+        "ko": "대형 암호화폐",
+        "de": "Large-Cap-Krypto",
+        "ms": "Kripto Bermodal Besar",
+        "id": "Kripto Berkapitalisasi Besar"
+      },
+      "description_translations": {
+        "zh": "市值最大的加密货币排行榜",
+        "en": "Largest cryptocurrency by market cap",
+        "ja": "時価総額最大の暗号通貨ランキング",
+        "ko": "시가총액 기준 최대 암호화폐",
+        "de": "Größte Kryptowährungen nach Marktkapitalisierung",
+        "ms": "Mata wang kripto terbesar mengikut permodalan pasaran",
+        "id": "Mata uang kripto terbesar berdasarkan kapitalisasi pasar"
+      },
+      "id": "crypto_coins.large_cap"
+    },
+    "crypto_coins.small_cap": {
+      "market_type": "crypto",
+      "name_translations": {
+        "zh": "小盘加密货币",
+        "en": "Small Cap Crypto",
+        "ja": "小型暗号通貨",
+        "ko": "소형 암호화폐",
+        "de": "Small-Cap-Krypto",
+        "ms": "Kripto Bermodal Kecil",
+        "id": "Kripto Berkapitalisasi Kecil"
+      },
+      "description_translations": {
+        "zh": "市值较小的加密货币排行榜",
+        "en": "Smaller cryptocurrency by market cap",
+        "ja": "時価総額の小さい暗号通貨ランキング",
+        "ko": "시가총액이 작은 암호화폐",
+        "de": "Kleinere Kryptowährungen nach Marktkapitalisierung",
+        "ms": "Mata wang kripto bermodal kecil",
+        "id": "Mata uang kripto berkapitalisasi kecil"
+      },
+      "id": "crypto_coins.small_cap"
+    },
+    "crypto_coins.gainers": {
+      "market_type": "crypto",
+      "name_translations": {
+        "zh": "加密货币涨幅榜",
+        "en": "Crypto Gainers",
+        "ja": "暗号通貨上昇ランキング",
+        "ko": "암호화폐 상승",
+        "de": "Krypto-Gewinner",
+        "ms": "Penaik Kripto",
+        "id": "Penaik Kripto"
+      },
+      "description_translations": {
+        "zh": "24小时涨幅最大的加密货币",
+        "en": "Top gaining cryptocurrencies in 24h",
+        "ja": "24時間で最も上昇した暗号通貨",
+        "ko": "24시간 동안 가장 많이 상승한 암호화폐",
+        "de": "Am stärksten steigende Kryptowährungen in 24h",
+        "ms": "Mata wang kripto paling meningkat dalam 24 jam",
+        "id": "Mata uang kripto dengan kenaikan tertinggi dalam 24 jam"
+      },
+      "id": "crypto_coins.gainers"
+    },
+    "crypto_coins.losers": {
+      "market_type": "crypto",
+      "name_translations": {
+        "zh": "加密货币跌幅榜",
+        "en": "Crypto Losers",
+        "ja": "暗号通貨下落ランキング",
+        "ko": "암호화폐 하락",
+        "de": "Krypto-Verlierer",
+        "ms": "Penurun Kripto",
+        "id": "Penurun Kripto"
+      },
+      "description_translations": {
+        "zh": "24小时跌幅最大的加密货币",
+        "en": "Top losing cryptocurrencies in 24h",
+        "ja": "24時間で最も下落した暗号通貨",
+        "ko": "24시간 동안 가장 많이 하락한 암호화폐",
+        "de": "Am stärksten fallende Kryptowährungen in 24h",
+        "ms": "Mata wang kripto paling menurun dalam 24 jam",
+        "id": "Mata uang kripto dengan penurunan tertinggi dalam 24 jam"
+      },
+      "id": "crypto_coins.losers"
+    },
+    "indices_quotes.major": {
+      "market_type": "indices",
+      "name_translations": {
+        "zh": "主要指数",
+        "en": "Major Indices",
+        "ja": "主要指数",
+        "ko": "주요 지수",
+        "de": "Hauptindizes",
+        "ms": "Indeks Utama",
+        "id": "Indeks Utama"
+      },
+      "description_translations": {
+        "zh": "全球主要股票指数",
+        "en": "Major global stock indices",
+        "ja": "世界主要株価指数",
+        "ko": "글로벌 주요 주가 지수",
+        "de": "Wichtige globale Aktienindizes",
+        "ms": "Indeks saham utama global",
+        "id": "Indeks saham utama global"
+      },
+      "id": "indices_quotes.major"
+    },
+    "indices_quotes.us": {
+      "market_type": "indices",
+      "name_translations": {
+        "zh": "美国指数",
+        "en": "US Indices",
+        "ja": "米国指数",
+        "ko": "미국 지수",
+        "de": "US-Indizes",
+        "ms": "Indeks AS",
+        "id": "Indeks AS"
+      },
+      "description_translations": {
+        "zh": "美国主要股票指数",
+        "en": "Major US stock indices",
+        "ja": "米国主要株価指数",
+        "ko": "미국 주요 주가 지수",
+        "de": "Wichtige US-Aktienindizes",
+        "ms": "Indeks saham utama AS",
+        "id": "Indeks saham utama AS"
+      },
+      "id": "indices_quotes.us"
+    },
+    "indices_quotes.americas": {
+      "market_type": "indices",
+      "name_translations": {
+        "zh": "美洲指数",
+        "en": "Americas Indices",
+        "ja": "米州指数",
+        "ko": "아메리카 지수",
+        "de": "Amerikanische Indizes",
+        "ms": "Indeks Amerika",
+        "id": "Indeks Amerika"
+      },
+      "description_translations": {
+        "zh": "美洲地区主要股票指数",
+        "en": "Major stock indices from Americas region",
+        "ja": "米州地域の主要株価指数",
+        "ko": "아메리카 지역 주요 주가 지수",
+        "de": "Wichtige Aktienindizes aus der amerikanischen Region",
+        "ms": "Indeks saham utama dari kawasan Amerika",
+        "id": "Indeks saham utama dari wilayah Amerika"
+      },
+      "id": "indices_quotes.americas"
+    },
+    "indices_quotes.asia": {
+      "market_type": "indices",
+      "name_translations": {
+        "zh": "亚洲指数",
+        "en": "Asia Indices",
+        "ja": "アジア指数",
+        "ko": "아시아 지수",
+        "de": "Asiatische Indizes",
+        "ms": "Indeks Asia",
+        "id": "Indeks Asia"
+      },
+      "description_translations": {
+        "zh": "亚洲地区主要股票指数",
+        "en": "Major stock indices from Asia region",
+        "ja": "アジア地域の主要株価指数",
+        "ko": "아시아 지역 주요 주가 지수",
+        "de": "Wichtige Aktienindizes aus der asiatischen Region",
+        "ms": "Indeks saham utama dari kawasan Asia",
+        "id": "Indeks saham utama dari wilayah Asia"
+      },
+      "id": "indices_quotes.asia"
+    },
+    "currencies_rates.major": {
+      "market_type": "currencies",
+      "name_translations": {
+        "zh": "主要货币对",
+        "en": "Major Currency Pairs",
+        "ja": "主要通貨ペア",
+        "ko": "주요 통화쌍",
+        "de": "Hauptwährungspaare",
+        "ms": "Pasangan Mata Wang Utama",
+        "id": "Pasangan Mata Uang Utama"
+      },
+      "description_translations": {
+        "zh": "全球主要货币对汇率",
+        "en": "Major global currency pairs",
+        "ja": "世界主要通貨ペアの為替レート",
+        "ko": "글로벌 주요 통화쌍 환율",
+        "de": "Wichtige globale Währungspaare",
+        "ms": "Kadar pertukaran pasangan mata wang utama global",
+        "id": "Nilai tukar pasangan mata uang utama global"
+      },
+      "id": "currencies_rates.major"
+    },
+    "currencies_rates.minor": {
+      "market_type": "currencies",
+      "name_translations": {
+        "zh": "次要货币对",
+        "en": "Minor Currency Pairs",
+        "ja": "マイナー通貨ペア",
+        "ko": "마이너 통화쌍",
+        "de": "Nebenwährungspaare",
+        "ms": "Pasangan Mata Wang Minor",
+        "id": "Pasangan Mata Uang Minor"
+      },
+      "description_translations": {
+        "zh": "次要经济体货币对汇率",
+        "en": "Minor economy currency pairs",
+        "ja": "マイナー経済通貨ペア",
+        "ko": "마이너 경제 통화쌍",
+        "de": "Währungspaare kleinerer Volkswirtschaften",
+        "ms": "Pasangan mata wang ekonomi minor",
+        "id": "Pasangan mata uang ekonomi minor"
+      },
+      "id": "currencies_rates.minor"
+    },
+    "currencies_rates.americas": {
+      "market_type": "currencies",
+      "name_translations": {
+        "zh": "美洲货币对",
+        "en": "Americas Currency Pairs",
+        "ja": "米州通貨ペア",
+        "ko": "미주 통화쌍",
+        "de": "Amerikanische Währungspaare",
+        "ms": "Pasangan Mata Wang Amerika",
+        "id": "Pasangan Mata Uang Amerika"
+      },
+      "description_translations": {
+        "zh": "美洲地区货币对汇率",
+        "en": "Currency pairs from Americas region",
+        "ja": "米州地域の通貨ペア為替レート",
+        "ko": "미주 지역 통화쌍 환율",
+        "de": "Währungspaare aus der amerikanischen Region",
+        "ms": "Pasangan mata wang dari rantau Amerika",
+        "id": "Pasangan mata uang dari wilayah Amerika"
+      },
+      "id": "currencies_rates.americas"
+    },
+    "currencies_rates.europe": {
+      "market_type": "currencies",
+      "name_translations": {
+        "zh": "欧洲货币对",
+        "en": "Europe Currency Pairs",
+        "ja": "欧州通貨ペア",
+        "ko": "유럽 통화쌍",
+        "de": "Europäische Währungspaare",
+        "ms": "Pasangan Mata Wang Eropah",
+        "id": "Pasangan Mata Uang Eropa"
+      },
+      "description_translations": {
+        "zh": "欧洲地区货币对汇率",
+        "en": "Currency pairs from Europe region",
+        "ja": "欧州地域の通貨ペア為替レート",
+        "ko": "유럽 지역 통화쌍 환율",
+        "de": "Währungspaare aus der europäischen Region",
+        "ms": "Pasangan mata wang dari rantau Eropah",
+        "id": "Pasangan mata uang dari wilayah Eropa"
+      },
+      "id": "currencies_rates.europe"
+    },
+    "futures.quotes_energy": {
+      "market_type": "futures",
+      "name_translations": {
+        "zh": "能源期货",
+        "en": "Energy Futures",
+        "ja": "エネルギー先物",
+        "ko": "에너지 선물",
+        "de": "Energie-Futures",
+        "ms": "Niaga Hadapan Tenaga",
+        "id": "Futures Energi"
+      },
+      "description_translations": {
+        "zh": "能源商品期货价格",
+        "en": "Energy commodity futures prices",
+        "ja": "エネルギー商品先物価格",
+        "ko": "에너지 상품 선물 가격",
+        "de": "Energie-Rohstoff-Futures-Preise",
+        "ms": "Harga niaga hadapan komoditi tenaga",
+        "id": "Harga futures komoditas energi"
+      },
+      "id": "futures.quotes_energy"
+    },
+    "futures.quotes_metals": {
+      "market_type": "futures",
+      "name_translations": {
+        "zh": "金属期货",
+        "en": "Metal Futures",
+        "ja": "金属先物",
+        "ko": "금속 선물",
+        "de": "Metall-Futures",
+        "ms": "Niaga Hadapan Logam",
+        "id": "Futures Logam"
+      },
+      "description_translations": {
+        "zh": "贵金属和基本金属期货价格",
+        "en": "Precious and base metal futures prices",
+        "ja": "貴金属およびベースメタル先物価格",
+        "ko": "귀금속 및 기본 금속 선물 가격",
+        "de": "Edel- und Basismetall-Futures-Preise",
+        "ms": "Harga niaga hadapan logam berharga dan asas",
+        "id": "Harga futures logam mulia dan dasar"
+      },
+      "id": "futures.quotes_metals"
+    },
+    "futures.quotes_agricultural": {
+      "market_type": "futures",
+      "name_translations": {
+        "zh": "农业期货",
+        "en": "Agricultural Futures",
+        "ja": "農業先物",
+        "ko": "농산물 선물",
+        "de": "Landwirtschaftliche Futures",
+        "ms": "Niaga Hadapan Pertanian",
+        "id": "Futures Pertanian"
+      },
+      "description_translations": {
+        "zh": "农产品期货价格",
+        "en": "Agricultural commodity futures prices",
+        "ja": "農産物先物価格",
+        "ko": "농산물 선물 가격",
+        "de": "Landwirtschaftliche Rohstoff-Futures-Preise",
+        "ms": "Harga niaga hadapan komoditi pertanian",
+        "id": "Harga futures komoditas pertanian"
+      },
+      "id": "futures.quotes_agricultural"
+    },
+    "futures.quotes_world_indices": {
+      "market_type": "futures",
+      "name_translations": {
+        "zh": "全球指数期货",
+        "en": "World Index Futures",
+        "ja": "世界指数先物",
+        "ko": "세계 지수 선물",
+        "de": "Weltindex-Futures",
+        "ms": "Niaga Hadapan Indeks Dunia",
+        "id": "Futures Indeks Dunia"
+      },
+      "description_translations": {
+        "zh": "全球股指期货价格",
+        "en": "Global stock index futures prices",
+        "ja": "世界株価指数先物価格",
+        "ko": "글로벌 주가 지수 선물 가격",
+        "de": "Globale Aktienindex-Futures-Preise",
+        "ms": "Harga niaga hadapan indeks saham global",
+        "id": "Harga futures indeks saham global"
+      },
+      "id": "futures.quotes_world_indices"
+    },
+    "etfs_funds.largest": {
+      "market_type": "etf",
+      "name_translations": {
+        "zh": "最大规模ETF",
+        "en": "Largest ETFs",
+        "ja": "最大規模ETF",
+        "ko": "최대 규모 ETF",
+        "de": "Größte ETFs",
+        "ms": "ETF Terbesar",
+        "id": "ETF Terbesar"
+      },
+      "description_translations": {
+        "zh": "按资产管理规模排序的ETF",
+        "en": "ETFs ranked by assets under management",
+        "ja": "運用資産規模順のETF",
+        "ko": "운용자산 규모순 ETF",
+        "de": "ETFs nach verwaltetem Vermögen geordnet",
+        "ms": "ETF disusun mengikut aset di bawah pengurusan",
+        "id": "ETF berdasarkan aset yang dikelola"
+      },
+      "id": "etfs_funds.largest"
+    },
+    "etfs_funds.highest_returns": {
+      "market_type": "etf",
+      "name_translations": {
+        "zh": "最高回报ETF",
+        "en": "Highest Return ETFs",
+        "ja": "最高リターンETF",
+        "ko": "최고 수익률 ETF",
+        "de": "ETFs mit höchster Rendite",
+        "ms": "ETF Pulangan Tertinggi",
+        "id": "ETF dengan Pengembalian Tertinggi"
+      },
+      "description_translations": {
+        "zh": "年回报率最高的ETF",
+        "en": "ETFs with highest annual return",
+        "ja": "年間リターンが最も高いETF",
+        "ko": "연간 수익률이 가장 높은 ETF",
+        "de": "ETFs mit höchster Jahresrendite",
+        "ms": "ETF dengan pulangan tahunan tertinggi",
+        "id": "ETF dengan pengembalian tahunan tertinggi"
+      },
+      "id": "etfs_funds.highest_returns"
+    },
+    "etfs_funds.highest_aum_growth": {
+      "market_type": "etf",
+      "name_translations": {
+        "zh": "资产增长最快ETF",
+        "en": "Fastest Growing ETFs",
+        "ja": "資産成長率最高ETF",
+        "ko": "자산 성장률 최고 ETF",
+        "de": "Am schnellsten wachsende ETFs",
+        "ms": "ETF Pertumbuhan Terpantas",
+        "id": "ETF dengan Pertumbuhan Tercepat"
+      },
+      "description_translations": {
+        "zh": "资产管理规模月增长最快的ETF",
+        "en": "ETFs with highest monthly AUM growth",
+        "ja": "月間資産増加率が最も高いETF",
+        "ko": "월간 자산 증가율이 가장 높은 ETF",
+        "de": "ETFs mit höchstem monatlichen AUM-Wachstum",
+        "ms": "ETF dengan pertumbuhan AUM bulanan tertinggi",
+        "id": "ETF dengan pertumbuhan AUM bulanan tertinggi"
+      },
+      "id": "etfs_funds.highest_aum_growth"
+    },
+    "etfs_funds.biggest_losers": {
+      "market_type": "etf",
+      "name_translations": {
+        "zh": "最大跌幅ETF",
+        "en": "Biggest Loss ETFs",
+        "ja": "最大損失ETF",
+        "ko": "최대 손실 ETF",
+        "de": "ETFs mit größten Verlusten",
+        "ms": "ETF Kerugian Terbesar",
+        "id": "ETF dengan Kerugian Terbesar"
+      },
+      "description_translations": {
+        "zh": "3年回报率最低的ETF",
+        "en": "ETFs with lowest 3-year return",
+        "ja": "3年リターンが最も低いETF",
+        "ko": "3년 수익률이 가장 낮은 ETF",
+        "de": "ETFs mit niedrigster 3-Jahres-Rendite",
+        "ms": "ETF dengan pulangan 3 tahun terendah",
+        "id": "ETF dengan pengembalian 3 tahun terendah"
+      },
+      "id": "etfs_funds.biggest_losers"
+    }
+  }
+}

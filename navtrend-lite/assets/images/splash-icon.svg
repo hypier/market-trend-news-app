@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" version="1.1" xmlns="http://www.w3.org/2000/svg" desc="Created with imagetracer.js version 1.2.6" >
+  <!-- 背景 -->
+  <path fill="#0EA5E9" stroke="#0EA5E9" stroke-width="1" opacity="1" d="M 0.5 0 L 1024 0.5 L 1023.5 1024 L 0 1023.5 L 0.5 0 Z" />
+  
+  <!-- 整体内容组合 - 图标和文字 -->
+  <g transform="translate(512, 400)">
+    <!-- 图标内容 - 缩放并居中 -->
+    <g transform="scale(0.6)">
+      <path fill="white" stroke="white" stroke-width="1" opacity="1" d="M 435.5 337 L 438 337.5 L 540 493.5 L 594.5 572 L 611 556.5 L 615 551.5 L 468 338.5 L 487.5 338 L 626.5 539 L 649 515.5 L 527 338.5 L 546.5 338 L 660.5 503 L 683 479.5 L 586 338.5 L 605.5 338 L 694.5 467 L 717 443.5 L 644 338.5 L 664.5 338 L 728.5 431 L 748 410.5 L 750 406.5 L 703 338.5 L 722.5 338 L 762.5 395 L 785 370.5 L 752 340.5 L 851.5 340 L 852 351.5 L 851 352.5 L 851 392.5 L 850 393.5 L 849.5 428 L 822.5 403 L 588.5 686 L 476 514.5 L 426.5 443 L 424 444.5 L 406 469.5 L 555 685.5 L 535.5 686 L 395.5 484 L 393 485.5 L 375 509.5 L 496 685.5 L 476.5 686 L 364.5 524 L 344 550.5 L 437 685.5 L 417.5 686 L 333.5 565 L 315 588.5 L 314 592.5 L 378 685.5 L 358.5 686 L 302.5 605 L 283 630.5 L 283 632.5 L 320 685.5 L 299.5 686 L 271.5 646 L 241.5 686 L 154 685.5 L 435.5 337 Z " transform="translate(-512, -512)"/>
+    </g>
+    
+    <!-- MarketNews 品牌文字 -->
+    <text x="-6" y="230" 
+          fill="white" 
+          font-family="'SF Pro Display', 'Helvetica Neue', 'Inter', 'Montserrat', system-ui, -apple-system, sans-serif" 
+          font-size="96" 
+          font-weight="500" 
+          text-anchor="middle" 
+          dominant-baseline="middle" 
+          letter-spacing="0.02em">MarketNews</text>
+  </g>
+</svg>

@@ -1,0 +1,169 @@
+# prod
+dist/
+
+# dev
+.yarn/
+!.yarn/releases
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# deps
+node_modules/
+.pnpm-store/
+.wrangler
+
+# env
+.env
+.env.local
+.env.production
+.env.development
+.dev.vars
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
+
+# database
+drizzle/
+*.db
+*.sqlite
+
+# coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# Cloudflare
+.wrangler/
+wrangler.toml.bak
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.wrangler/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.dev.vars
+env.production.vars
+*.vars
+
+# Database
+drizzle/
+*.db
+*.sqlite
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# Cloudflare Workers
+.wrangler/
+wrangler.toml.bak
+worker-configuration.d.ts
+
+# Node.js 相关
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# 构建输出
+dist/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# Cloudflare Workers 相关
+worker/
+.wrangler/
+wrangler-local-state/
+
+# 编辑器和IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+
+# 日志
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# 敏感信息
+*.pem
+*.key
+*.cert
+secrets.json

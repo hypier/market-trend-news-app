@@ -1,0 +1,16 @@
+{
+  "name": "navtrend-projects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NavTrend 项目集合 - 包含独立的后端和前端项目",
+  "scripts": {
+    "api:install": "cd navtrend-api && npm install",
+    "api:dev": "cd navtrend-api && npm run dev",
+    "lite:install": "cd navtrend-lite && npm install",
+    "lite:dev": "cd navtrend-lite && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+# EAS Build ignore file - 减小上传包大小
+
+# Node modules (会在云端重新安装)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+.expo/
+web-build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# 已生成的原生目录（会重新生成）
+ios/
+android/
