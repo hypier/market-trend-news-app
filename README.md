@@ -63,7 +63,6 @@ navtrend-api (Cloudflare Workers)
 | Leaderboard | Market movers / top performers |
 | Auth | Clerk OAuth (Apple, Google, email) |
 | Multi-language | en, zh, ja, ko, de, id, ms |
-| Push Notifications | Configurable quiet hours and daily limits |
 
 ---
 
