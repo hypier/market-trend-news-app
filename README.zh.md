@@ -63,7 +63,6 @@ navtrend-api（Cloudflare Workers 边缘节点）
 | 排行榜 | 涨跌幅排行、市场热门榜单 |
 | 用户认证 | Clerk OAuth（Apple、Google、邮箱登录） |
 | 多语言 | 支持中、英、日、韩、德、印尼、马来语 |
-| 推送通知 | 可配置免打扰时段和每日推送上限 |
 
 ---
 
